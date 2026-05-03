@@ -66,12 +66,12 @@ export default function Home() {
                         <span className="gradient-text">Md Farzan</span>
                     </h1>
 
-                    <h2 className="text-xl sm:text-2xl font-semibold text-[var(--text-secondary)] mb-6 min-h-8">
+                    <h2 className="text-xl sm:text-2xl font-semibold text-text-secondary mb-6 min-h-8">
                         <span className="text-accent">{displayed}</span>
                         <span className="animate-pulse text-accent">|</span>
                     </h2>
 
-                    <p className="hero-description text-[var(--text-secondary)] max-w-md leading-relaxed">
+                    <p className="hero-description text-text-secondary max-w-md leading-relaxed">
                         I craft clean, performant web experiences with modern technologies.
                         A passionate Frontend Web Developer based In WestBengal, India.
                     </p>
@@ -114,9 +114,9 @@ export default function Home() {
                 {/* Avatar / illustration */}
                 <div className="flex justify-center animate-fade-in-up animate-delay-200">
                     <div className="relative">
-                        <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-[var(--bg-card)] border-2 border-[var(--border-accent)] glow-pulse flex items-center justify-center overflow-hidden">
+                        <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-bg-card border-2 border-(--border-accent) glow-pulse flex items-center justify-center overflow-hidden">
                             {/* Placeholder avatar — replace src with your photo */}
-                            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[var(--accent-glow)] to-[var(--bg-primary)]">
+                            <div className="w-full h-full flex items-center justify-center bg-linear-to-br from-(--accent-glow) to-bg-primary">
                                 {/* <svg viewBox="0 0 100 100" className="w-40 h-40 text-[var(--text-muted)]"
                                     fill="currentColor" aria-hidden="true">
                                     <circle cx="50" cy="38" r="20" />
@@ -136,8 +136,8 @@ export default function Home() {
 
             {/* Scroll indicator */}
             <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce">
-                <span className="text-[var(--text-muted)] text-xs font-mono">scroll</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-[var(--text-muted)]" aria-hidden="true">
+                <span className="text-text-muted text-xs font-mono">scroll</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-text-muted" aria-hidden="true">
                     <path d="M12 5v14M5 12l7 7 7-7" />
                 </svg>
             </div>
