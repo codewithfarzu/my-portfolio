@@ -333,6 +333,9 @@ body {
   background-color: var(--accent) !important;
 }
 
+/* Profile Image */
+
+
 /* Portfolio image overlay */
 .portfolio-overlay {
   position: absolute;

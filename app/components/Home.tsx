@@ -122,7 +122,7 @@ export default function Home() {
                                     <circle cx="50" cy="38" r="20" />
                                     <ellipse cx="50" cy="80" rx="30" ry="20" />
                                 </svg> */}
-                                <Image src="/profile-img/my-img.png" alt="Profile Picture" width={500} height={500} loading="eager" />
+                                <Image src="/profile-img/my-img1.webp" alt="Profile Picture" className="my-img" width={500} height={500} loading="eager" />
                             </div>
                         </div>
                         {/* Floating badge */}
