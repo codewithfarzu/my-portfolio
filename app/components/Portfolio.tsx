@@ -27,7 +27,7 @@ const PROJECTS: Project[] = [
     },
     {
         title: "Lustre Illumination",
-        description: "A premium lighting brand website for Lustre Illuminations — a 30+ year ISO-certified manufacturer of LED indoor, landscape, street, and heritage lighting solutions, featuring a product showcase and inquiry system.",
+        description: "A B2B product showcase premium lighting brand website for Lustre Illuminations — a 30+ year ISO-certified manufacturer of LED indoor, landscape, street, and heritage lighting solutions, featuring a product showcase and inquiry system.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         category: "Frontend",
         liveUrl: "https://www.lustre.in/",
@@ -37,7 +37,7 @@ const PROJECTS: Project[] = [
     },
     {
         title: "Shreemat Orchid LED Light",
-        description: "A product catalog website for Shreemat Orchid — an Indian LED lighting manufacturer offering indoor panels, COB lights, and solar outdoor solutions, built with a detailed product showcase and inquiry flow.",
+        description: "A B2B product showcase catalog website for Shreemat Orchid — an Indian LED lighting manufacturer offering indoor panels, COB lights, and solar outdoor solutions, built with a detailed product showcase and inquiry flow.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         category: "Frontend",
         liveUrl: "https://shreemat-orchid.netlify.app/",
