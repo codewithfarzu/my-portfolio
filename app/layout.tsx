@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name — Full Stack Developer",
+  title: "Md Farzan — Full Stack Developer",
   description:
-    "Portfolio of Your Name, a Full Stack Developer specializing in React, Next.js, and Node.js.",
+    "Portfolio of Md Farzan Akhtar, a Full Stack Developer specializing in React, Next.js, and Node.js.",
   keywords: ["portfolio", "developer", "react", "nextjs", "fullstack"],
 };
 

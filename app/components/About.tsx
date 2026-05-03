@@ -1,9 +1,9 @@
 const SKILLS = [
-    { name: "HTML", level: 80 },
-    { name: "Css", level: 80 },
-    { name: "JavaScript", level: 35 },
-    { name: "React / Next.js", level: 30 },
-    { name: "Tailwind CSS", level: 85 },
+    { name: "HTML / CSS", level: 80 },
+    { name: "JavaScript", level: 30 },
+    { name: "jQuery / Sass", level: 30 },
+    { name: "React / Next.js", level: 35 },
+    { name: "Tailwind CSS / Bootstrap", level: 85 },
     { name: "TypeScript", level: 20 },
     { name: "Node.js", level: 10 },
     { name: "MongoDB / SQL", level: 10 },
@@ -40,12 +40,12 @@ export default function About() {
                         </p>
 
                         {/* Info grid */}
-                        <ul className="grid grid-cols-2 gap-3 mb-8 list-none">
+                        <ul className="grid grid-cols-1 gap-3 mb-8 list-none">
                             {[
                                 ["Name", "Md Farzan Akhtar"],
                                 ["Email", "mdfarzan78@gmail.com"],
                                 ["Location", "West Bangal, India"],
-                                ["Degree", "Frontend Development / Diploma CST"],
+                                ["Degree", "B.A (Pursuing) / Frontend Development / Diploma CST"],
                                 ["Freelance", "Available"],
                                 ["Languages", "Hindi, English"],
                             ].map(([key, val]) => (

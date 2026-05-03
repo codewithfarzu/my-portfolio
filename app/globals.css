@@ -16,7 +16,7 @@
   /* Text */
   --text-primary: #f0f0ff;
   --text-secondary: #a0a0c0;
-  --text-muted: #555570;
+  --text-muted: #8c8cb5;
 
   /* Border */
   --border: #2a2a45;
@@ -92,7 +92,7 @@ body {
 /* Container */
 .container-custom {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
