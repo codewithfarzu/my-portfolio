@@ -50,7 +50,7 @@ const PROJECTS: Project[] = [
         description: "A React CRUD app that fetches, displays, and edits user data from a REST API, featuring dynamic form inputs and real-time data rendering.",
         tags: ["React.js", "TypeScript", "Next.js", "CSS", "REST API"],
         category: "Backend",
-        liveUrl: "https://data-api30-07-25.netlify.app/edit/2",
+        liveUrl: "https://data-api30-07-25.netlify.app/input",
         repoUrl: "#",
         color: "#ffd93d",
         image: "/project-thumbnail/curd-api.webp",
