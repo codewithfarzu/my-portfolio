@@ -4,7 +4,7 @@
 :root {
   /* Background layers — deep dark gradient theme */
   --bg-primary: #0d0d1a;
-  --bg-secondary: #111128;
+  --bg-secondary: #0f0f24;
   --bg-card: #16162a;
   --bg-card-hover: #1e1e35;
 
@@ -49,11 +49,12 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 4rem;
+  background: linear-gradient(135deg, #0d0d1a 0%, #111128 50%, #0a0a18 100%);
+  min-height: 100%;
 }
 
 body {
-  background: linear-gradient(135deg, #0d0d1a 0%, #111128 50%, #0a0a18 100%);
-  background-attachment: fixed;
+  background: transparent;
   color: var(--text-primary);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   line-height: 1.6;
