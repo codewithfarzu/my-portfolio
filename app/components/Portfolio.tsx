@@ -105,7 +105,7 @@ const PROJECTS: Project[] = [
         color: "#00d4aa",
         image: "/project-thumbnail/restaurent.webp",
     },
-    {
+    /* {
         title: "PSD to HTML",
         description: "A PSD to HTML conversion — a responsive restaurant landing page with a newsletter subscription section, built with a clean layout and modern UI design.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -114,7 +114,7 @@ const PROJECTS: Project[] = [
         repoUrl: "#",
         color: "#00d4aa",
         image: "/project-thumbnail/foody.webp",
-    },
+    }, */
 ];
 
 const FILTERS = ["All", "Frontend", "Backend", "FullStack"] as const;
