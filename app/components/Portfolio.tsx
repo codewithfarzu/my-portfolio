@@ -19,7 +19,7 @@ const PROJECTS: Project[] = [
         title: "Corner Store",
         description: "A responsive grocery store web app built with Next.js, featuring product listings, category browsing, and a shopping cart — designed for a seamless online shopping experience.",
         tags: ["React.js", "Tailwind CSS", "Next.js", "TypeScript", "CSS3", "PostgreSQL", "clerk"],
-        category: "FullStack",
+        category: "Frontend",
         liveUrl: "https://corner-store-ochre.vercel.app/",
         repoUrl: "#",
         color: "#5b5ef4",
