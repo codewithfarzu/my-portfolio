@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
         image: "/project-thumbnail/corner-store.png",
     },
     {
-        title: "Divyanshi ",
+        title: "Divyanshi Enterprise",
         description: "A B2B product showcase website for Divyanshi Enterprises — a Delhi-based dealer of communication and security equipment including walkie-talkies, GPS devices, and body-worn cameras, built with a product catalog and contact system.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         category: "Frontend",
@@ -105,7 +105,7 @@ const PROJECTS: Project[] = [
         color: "#00d4aa",
         image: "/project-thumbnail/restaurent.webp",
     },
-    /* {
+    {
         title: "PSD to HTML",
         description: "A PSD to HTML conversion — a responsive restaurant landing page with a newsletter subscription section, built with a clean layout and modern UI design.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -114,7 +114,7 @@ const PROJECTS: Project[] = [
         repoUrl: "#",
         color: "#00d4aa",
         image: "/project-thumbnail/foody.webp",
-    }, */
+    },
 ];
 
 const FILTERS = ["All", "Frontend", "Backend", "FullStack"] as const;
@@ -143,13 +143,9 @@ export default function Portfolio() {
                             aria-selected={active === f}
                             onClick={() => setActive(f)}
                             className={[
-                                "px-4 py-1.5 rounded-full text-sm font-medium capitalize border transition-all duration-200",
-                                active === f
+                                "px-4 py-1.5 rounded-full text-sm font-medium capitalize border transition-all duration-200", active === f
                                     ? "bg-accent text-white border-accent"
-                                    : "bg-transparent text-text-secondary border-border hover:border-(--border-accent) hover:text-accent",
-                            ].join(" ")}
-                        >
-                            {f}
+                                    : "bg-transparent text-text-secondary border-border hover:border-(--border-accent) hover:text-accent",].join(" ")}>{f}
                         </button>
                     ))}
                 </div>
