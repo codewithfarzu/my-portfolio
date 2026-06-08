@@ -337,6 +337,15 @@ body {
 /* Profile Image */
 /* .my-img {width: ;} */
 
+/* Portfolio card color bar and overlay — uses --project-color CSS variable set on the <li> */
+.portfolio-card__bar {
+  background: var(--project-color, var(--accent));
+}
+
+.portfolio-card__overlay {
+  background: var(--project-color, var(--accent));
+}
+
 /* Portfolio image overlay */
 .portfolio-overlay {
   position: absolute;

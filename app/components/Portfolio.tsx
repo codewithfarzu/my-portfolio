@@ -157,7 +157,11 @@ export default function Portfolio() {
                 {/* Cards grid */}
                 <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 list-none">
                     {filtered.map((project) => (
-                        <li key={project.title} className="portfolio-card card group flex flex-col overflow-hidden">
+                        <li
+                            key={project.title}
+                            className="portfolio-card card group flex flex-col overflow-hidden"
+                            style={{ "--project-color": project.color } as React.CSSProperties}
+                        >
 
                             {/* Project screenshot image */}
                             <div className="relative w-full h-44 overflow-hidden bg-[var(--bg-card-hover)]">
@@ -166,8 +170,7 @@ export default function Portfolio() {
 
                                 {/* Color accent overlay on hover */}
                                 <div
-                                    className="absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300"
-                                    style={{ background: project.color }}
+                                    className="portfolio-card__overlay absolute inset-0 opacity-0 group-hover:opacity-20 transition-opacity duration-300"
                                     aria-hidden="true"
                                 />
                                 {/* Live link overlay button */}
@@ -183,7 +186,7 @@ export default function Portfolio() {
                             </div>
 
                             {/* Color bar */}
-                            <div className="h-[3px]" style={{ background: project.color }} aria-hidden="true" />
+                            <div className="portfolio-card__bar h-[3px]" aria-hidden="true" />
 
                             {/* Card body */}
                             <div className="p-5 flex flex-col flex-1">
