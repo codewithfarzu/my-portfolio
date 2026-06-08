@@ -16,6 +16,16 @@ type Project = {
 
 const PROJECTS: Project[] = [
     {
+        title: "Corner Store",
+        description: "A responsive grocery store web app built with Next.js, featuring product listings, category browsing, and a shopping cart — designed for a seamless online shopping experience.",
+        tags: ["React.js", "Tailwind CSS", "Next.js", "TypeScript", "CSS"],
+        category: "Fullstack",
+        liveUrl: "https://corner-store-ochre.vercel.app/",
+        repoUrl: "#",
+        color: "#5b5ef4",
+        image: "/project-thumbnail/corner-store.png",
+    },
+    {
         title: "Divyanshi Enterprise",
         description: "A B2B product showcase website for Divyanshi Enterprises — a Delhi-based dealer of communication and security equipment including walkie-talkies, GPS devices, and body-worn cameras, built with a product catalog and contact system.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -36,16 +46,6 @@ const PROJECTS: Project[] = [
         image: "/project-thumbnail/lustre.webp",
     },
     {
-        title: "Shreemat Orchid LED Light",
-        description: "A B2B product showcase catalog website for Shreemat Orchid — an Indian LED lighting manufacturer offering indoor panels, COB lights, and solar outdoor solutions, built with a detailed product showcase and inquiry flow.",
-        tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-        category: "Frontend",
-        liveUrl: "https://shreemat-orchid.netlify.app/",
-        repoUrl: "#",
-        color: "#ff6b6b",
-        image: "/project-thumbnail/shreemat.webp",
-    },
-    {
         title: "CRUD Ops with REST API",
         description: "A React CRUD app that fetches, displays, and edits user data from a REST API, featuring dynamic form inputs and real-time data rendering.",
         tags: ["React.js", "TypeScript", "Next.js", "CSS", "REST API"],
@@ -54,6 +54,16 @@ const PROJECTS: Project[] = [
         repoUrl: "#",
         color: "#ffd93d",
         image: "/project-thumbnail/curd-api.webp",
+    },
+    {
+        title: "Shreemat Orchid LED Light",
+        description: "A B2B product showcase catalog website for Shreemat Orchid — an Indian LED lighting manufacturer offering indoor panels, COB lights, and solar outdoor solutions, built with a detailed product showcase and inquiry flow.",
+        tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        category: "Frontend",
+        liveUrl: "https://shreemat-orchid.netlify.app/",
+        repoUrl: "#",
+        color: "#ff6b6b",
+        image: "/project-thumbnail/shreemat.webp",
     },
     {
         title: "Weather App",
