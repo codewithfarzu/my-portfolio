@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
         image: "/project-thumbnail/corner-store.png",
     },
     {
-        title: "Divyanshi Enterprise",
+        title: "Divyanshi ",
         description: "A B2B product showcase website for Divyanshi Enterprises — a Delhi-based dealer of communication and security equipment including walkie-talkies, GPS devices, and body-worn cameras, built with a product catalog and contact system.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         category: "Frontend",
