@@ -56,7 +56,7 @@ export default function About() {
                             ))}
                         </ul>
 
-                        <a href="/my-resume/Md-Farzan-Akhtar.pdf" download className="btn-primary">
+                        <a href="/my-resume/Md_Farzan_Akhtar_Frontend_Developer_Resume.pdf" download className="btn-primary">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                                 <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
                             </svg>

@@ -26,7 +26,7 @@ const PROJECTS: Project[] = [
         image: "/project-thumbnail/corner-store.png",
     },
     {
-        title: "Divyanshi Enterprise",
+        title: "Divyanshi Enterprise (Live Client Project)",
         description: "A B2B product showcase website for Divyanshi Enterprises — a Delhi-based dealer of communication and security equipment including walkie-talkies, GPS devices, and body-worn cameras, built with a product catalog and contact system.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         category: "Frontend",
@@ -36,7 +36,7 @@ const PROJECTS: Project[] = [
         image: "/project-thumbnail/divyanshi.webp",
     },
     {
-        title: "Lustre Illumination",
+        title: "Lustre Illumination (Live Client Project)",
         description: "A B2B product showcase premium lighting brand website for Lustre Illuminations — a 30+ year ISO-certified manufacturer of LED indoor, landscape, street, and heritage lighting solutions, featuring a product showcase and inquiry system.",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         category: "Frontend",
