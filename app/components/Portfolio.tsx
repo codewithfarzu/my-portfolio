@@ -23,7 +23,7 @@ const PROJECTS: Project[] = [
         category: "FullStack",
         liveUrl: "https://hotel-booking-web-app-rust-eight.vercel.app/",
         repoUrl: "#",
-        color: "#5b5ef4",
+        color: "#00aaff",
         image: "/project-thumbnail/hotel-booking.png",
     },
     {
