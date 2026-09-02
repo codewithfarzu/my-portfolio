@@ -16,6 +16,17 @@ type Project = {
 
 const PROJECTS: Project[] = [
     {
+        title: "Hotel Room Booking",
+        description: `Built a full-stack hotel booking platform with authentication, room management, and booking system (React, TypeScript, Node.js, Express, MongoDB) 
+        Role: Designed and implemented a full-stack hotel booking application featuring 5+ core modules, including authentication, room management, booking, user dashboard, and REST APIs.`,
+        tags: ["React.js", "TypeScript", "Node.js", "Express", "MongoDB", "REST APIs", "Authentication"],
+        category: "FullStack",
+        liveUrl: "https://hotel-booking-web-app-rust-eight.vercel.app/",
+        repoUrl: "#",
+        color: "#5b5ef4",
+        image: "/project-thumbnail/hotel-booking.png",
+    },
+    {
         title: "Corner Store",
         description: "A responsive grocery store web app built with Next.js, featuring product listings, category browsing, and a shopping cart — designed for a seamless online shopping experience.",
         tags: ["React.js", "Tailwind CSS", "Next.js", "TypeScript", "CSS3", "PostgreSQL", "Clerk"],
