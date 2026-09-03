@@ -16,7 +16,7 @@ type Project = {
 
 const PROJECTS: Project[] = [
     {
-        title: "Hotel Room Booking",
+        title: "Hotel Rooms Booking",
         description: `Built a full-stack hotel booking platform with authentication, room management, and booking system (React, TypeScript, Node.js, Express, MongoDB) 
         Role: Designed and implemented a full-stack hotel booking application featuring 5+ core modules, including authentication, room management, booking, user dashboard, and REST APIs.`,
         tags: ["React.js", "TypeScript", "Node.js", "Express", "MongoDB", "REST APIs", "Authentication"],
