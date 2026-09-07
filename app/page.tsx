@@ -14,8 +14,8 @@ export default function Page() {
       <main>
         <Home />
         <About />
-        <Portfolio />
         <Services />
+        <Portfolio />
         <Contact />
       </main>
       <Footer />
