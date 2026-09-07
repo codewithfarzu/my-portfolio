@@ -46,7 +46,7 @@ export default function About() {
                                 ["Email", "mdfarzan78@gmail.com"],
                                 ["Location", "West Bangal, India"],
                                 ["Degree", "B.A (Pursuing) / Diploma in Computer Science and Technology"],
-                                ["Certifictae","Frontend Development, Full Stack Development, Web Development"],
+                                ["Certifictae","Frontend Development, Backend Development, Full Stack Development"],
                                 ["Freelance", "Available"],
                                 ["Languages", "Hindi, English"],
                             ].map(([key, val]) => (
