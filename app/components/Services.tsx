@@ -79,11 +79,11 @@ const SERVICES: Service[] = [
 
 export default function Services() {
     return (
-        <section id="services" className="section bg-[var(--bg-primary)]">
+        <section id="services" className="section bg-bg-primary">
             <div className="container-custom">
                 {/* Heading */}
                 <h2 className="section-title">
-                    My <span>Services</span>
+                    Technical <span>Skills</span>
                 </h2>
                 <div className="section-underline" />
 
@@ -91,21 +91,21 @@ export default function Services() {
                     {SERVICES.map(({ icon, title, description, features }) => (
                         <li key={title} className="card p-6 group flex flex-col gap-4">
                             {/* Icon */}
-                            <div className="w-12 h-12 rounded-lg bg-[var(--accent-glow)] border border-[var(--border-accent)] flex items-center justify-center text-accent group-hover:scale-110 transition-transform duration-300">
+                            <div className="w-12 h-12 rounded-lg bg-(--accent-glow) border border-(--border-accent) flex items-center justify-center text-accent group-hover:scale-110 transition-transform duration-300">
                                 {icon}
                             </div>
 
-                            <h3 className="text-base font-semibold text-[var(--text-primary)] group-hover:text-accent transition-colors duration-200">
+                            <h3 className="text-base font-semibold text-text-primary group-hover:text-accent transition-colors duration-200">
                                 {title}
                             </h3>
 
-                            <p className="text-sm text-[var(--text-secondary)] leading-relaxed flex-1">
+                            <p className="text-sm text-text-secondary leading-relaxed flex-1">
                                 {description}
                             </p>
 
                             <ul className="flex flex-col gap-1.5 list-none">
                                 {features.map((f) => (
-                                    <li key={f} className="flex items-center gap-2 text-sm text-[var(--text-secondary)]">
+                                    <li key={f} className="flex items-center gap-2 text-sm text-text-secondary">
                                         <span className="w-1.5 h-1.5 rounded-full bg-accent shrink-0" aria-hidden="true" />
                                         {f}
                                     </li>
