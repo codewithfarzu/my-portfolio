@@ -28,7 +28,7 @@ const SERVICES: Service[] = [
         title: "Backend Development",
         description:
             "Scalable REST APIs and server-side logic with Node.js, Express, and databases like MongoDB and PostgreSQL.",
-        features: ["Node.js / Express", "REST APIs", "MongoDB / SQL", "Authentication"],
+        features: ["Node.js / Express", "REST APIs", "MongoDB / PostgreSQL", "JWT Authentication"],
     },
     {
         icon: (
@@ -51,7 +51,7 @@ const SERVICES: Service[] = [
         title: "UI/UX Design",
         description:
             "Clean, intuitive interfaces designed with user experience at the core. Wireframes to high-fidelity prototypes.",
-        features: ["Figma Prototypes", "Design Systems", "Accessibility", "User Research"],
+        features: ["Figma Prototypes", "Canva", "Design Systems", "Accessibility", "User Research"],
     },
     {
         icon: (

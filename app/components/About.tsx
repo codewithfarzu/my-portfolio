@@ -26,7 +26,7 @@ export default function About() {
                 </h2>
                 <div className="section-underline" />
 
-                <div className="grid md:grid-cols-2 gap-12 items-start">
+                <div className="grid md:grid-cols-12 gap-12 items-start">
                     {/* Left — bio */}
                     <div>
                         <p className="text-text-secondary mb-4 leading-relaxed">
@@ -65,7 +65,7 @@ export default function About() {
                     </div>
 
                     {/* Right — skills */}
-                    <div>
+                    {/* <div>
                         <h3 className="text-lg font-semibold text-text-primary mb-6">
                             Technical Skills
                         </h3>
@@ -90,7 +90,7 @@ export default function About() {
                                 </li>
                             ))}
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
 
                 {/* Stats */}
